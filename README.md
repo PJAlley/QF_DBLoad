@@ -4,6 +4,8 @@ This is a take-home to load data into a DB and to calculate the classification t
 
 It will create two tables called DELoad and classification_totals into a local SQLite database which is stored locally.
 
+The script will also delete those tables if they already exist, ensuring a clean slate.
+
 ## Usage
 ```
 python3 load_data.py
